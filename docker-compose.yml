@@ -7,6 +7,7 @@ services:
     container_name: prismaapi-app
     ports:
       - "5050:5050"
+      - "5555:5555"
     volumes:
       - .:/home/node/app
     depends_on:
